@@ -46,7 +46,7 @@
           >List your Property</a>
           <a href="#" class="block ml-6 px-2 py-1 text-gray-100 hover:bg-gray-800 rounded">Trips</a>
           <a href="#" class="block ml-6 px-2 py-1 text-gray-100 hover:bg-gray-800 rounded">Messages</a>
-          <AccountDropdown class="hidden sm:block ml-4 text-white" />
+          <AccountDropdown class="hidden sm:block ml-6 text-white" />
         </div>
       </div>
     </div>
@@ -99,7 +99,7 @@ export default {
   },
   data() {
     return {
-      isNavCollapsed: false
+      isNavCollapsed: true
     };
   }
 };
